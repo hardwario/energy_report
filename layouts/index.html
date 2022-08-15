@@ -4,7 +4,7 @@
 {{ $currentLang := .Site.Language.Lang }}
 
 <section>
-  <div class="bg bg-image1" id = "top">
+  <div class="bg bg-image1">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-7 pt-120 mt-md-0 pt-md-60">
@@ -13,7 +13,7 @@
           </h1>        
           <p class = "font-20 font-lnh28 pb-20">{{ .Params.perex | safeHTML }}</p>
           <div>
-            <a href="#benefits" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "learn_more" }}</a>
+            <a href="#meeting" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "make_appointment" }}</a>
          
             
         </div>
@@ -145,7 +145,7 @@
 </section>-->
 
 <section>
-  <div class="bg bg--gray">
+  <div class="bg bg--gray" id = "pricelist">
       <div class="container ">
           <div class="row">
               <div class="col">
@@ -305,21 +305,12 @@
 
 {{ define "additional-scripts" }}
 
-<script type="text/javascript">
-  $('.playVideo').click(function(){
-    $('#playVideo').modal({
-      keyboard: false
-    })
-  });
-
-</script>
-
 <script>
   $("a.smooth[href^=\\#]").click(function(e) {
     e.preventDefault();
     var dest = $(this).attr('href');
     //console.log(dest);
-    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
+    $('html,body').animate({ scrollTop: ($(dest).offset().top - 100) }, 'slow');
   });
 </script>
 

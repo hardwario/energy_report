@@ -162,7 +162,7 @@ other = "Vaše nejčastější dotazy"
 other = "Jak probíhá program energeticky.report?"
 
 [faq_1_desc]
-other = "Po odeslání formuláře vás kontaktujeme a domluvíme se na termínu společné online schůzky. Cílem je zjistit odpovědět vaše dotazy a vybrat způsob měření spotřeby energií."
+other = "Po odeslání formuláře vás kontaktujeme a domluvíme se na termínu společné online schůzky. Cílem je zodpovědět vaše dotazy a vybrat způsob měření spotřeby energií."
 
 [faq_2]
 other = "Je možné pilot rozšířit o další zařízení?"
@@ -180,7 +180,7 @@ other = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M. Mají skvěl
 other = "Kde uvidíme data?"
 
 [faq_4_desc]
-other = "V programu energeticky.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = 'https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection' target = '_blank'>odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace."
+other = "V programu energeticky.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = '/_assets/docs/metering_report.pdf' target = '_blank'>odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace."
 
 [faq_5]
 other = "Kolik budeme platit za služby po skončení předplaceného roku?"

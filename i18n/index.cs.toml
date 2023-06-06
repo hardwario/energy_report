@@ -152,8 +152,20 @@ other = "Partner programu energeticky.report"
 [ceo]
 other = "CMO a spoluzakladatel"
 
-[cso]
-other = "Chief Sales Officer"
+[contact_image]
+other = "/_assets/images/rene.jpg"
+
+[contact_position]
+other = "Chief Strategy Officer"
+
+[contact_name]
+other = "René Gubančok"
+
+[contact_email]
+other = "rene.gubancok@hardwario.com"
+
+[contact_mailto]
+other = "mailto:rene.gubancok@hardwario.com"
 
 [let_contact]
 other = "Nechte mi na vás kontakt, ozvu se"
